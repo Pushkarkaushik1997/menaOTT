@@ -1,0 +1,10 @@
+/* src/App.module.scss */
+.home {
+    overflow-y: auto;
+    height: 100vh;
+  }
+  
+  .appContent {
+    display: flex;
+    flex-direction: column;
+  }

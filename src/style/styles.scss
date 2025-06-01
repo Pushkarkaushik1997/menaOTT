@@ -1,0 +1,60 @@
+// App.scss
+$dark-color: #333;
+$light-color: #eee;
+
+body{
+  position: relative;
+}
+
+body.light {
+    background-color: $light-color;
+  }
+  
+  body.dark {
+    background-color: $dark-color;
+  }
+  
+  .App {
+    padding: 20px;
+  
+    &.light {
+      color: $dark-color;
+    }
+  
+    &.dark {
+      color: $light-color;
+    }
+  }
+  
+  button {
+    height: 40px;
+    width: 150px;
+    margin: 5px;
+  }
+
+  button:hover
+{
+  box-shadow: 0px 0px 10px #ccc;
+}
+  // Define styles for the button
+.btn {
+    padding: 30px;
+    width: 80vw;
+    margin: auto;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+
+
+    &.light {
+        background-color: $dark-color;
+        color: $light-color;
+    }
+
+    &.dark {
+        background-color: $light-color;
+        color: $dark-color;
+    }
+  }
+
+  

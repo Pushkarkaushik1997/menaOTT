@@ -1,0 +1,32 @@
+@use '/src/tv/styles/variables' as *;
+
+.cardRow {
+  margin-left: 60px;
+  padding-left: 10px;
+
+  h1 {
+    font-size: 25px;
+    color: $default-dark;
+  }
+
+}
+
+.heroRow {
+  height: unset;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.rowContent {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.rowContent {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.rowContent::-webkit-scrollbar {
+  display: none;
+}

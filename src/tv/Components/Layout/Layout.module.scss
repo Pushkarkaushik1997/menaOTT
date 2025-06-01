@@ -1,0 +1,11 @@
+@use "/src/tv/styles/variables" as *;
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background-color: $accessible-light;
+  height: 100%;
+  font-family: $universal-font;
+}

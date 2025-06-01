@@ -1,0 +1,156 @@
+.plans-container {
+  width: 60vw;
+  height: 100vh;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.plans-title {
+  color: #fff;
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.plans-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+}
+
+.plan-card {
+  border-radius: 32px;
+  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.3);
+  padding: 40px 32px;
+  align-items: center;
+  min-height: 220px;
+  width: 100%;
+}
+
+.plan-super {
+  background: #0056d6;
+  color: #fff;
+}
+
+.plan-premium {
+  background: #222;
+  color: #fff;
+}
+
+.plan-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.plan-name {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.ads-free {
+  background: #ffd600;
+  color: #222;
+  font-size: 20px;
+  font-weight: 900;
+  border-radius: 12px;
+  padding: 4px 16px;
+  margin-left: 12px;
+}
+
+.plan-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plan-features {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  flex: 2;
+}
+
+.plan-feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100px;
+  justify-content: unset;
+  gap: 10px;
+}
+
+.feature-label {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.feature-desc {
+  font-size: 18px;
+  color: #e0e0e0;
+  white-space: pre-line;
+}
+
+.plan-prices {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.plan-price {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+  padding: 32px 40px;
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  border: 3px solid transparent;
+  transition:
+    border 0.2s,
+    background 0.2s;
+}
+
+.plan-price-focused {
+  border: 3px solid #ffd600;
+  background: rgba(255, 255, 255, 0.22);
+  border-radius: 20px;
+}
+
+.price-label {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.price-value {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.price-sub {
+  font-size: 18px;
+  color: #ffd600;
+  margin-top: 4px;
+}
+
+// Icon placeholders (replace with real icons if needed)
+.icon-tv::before {
+  content: "\1F4FA"; /* TV emoji */
+  margin-right: 6px;
+}
+.icon-dolby::before {
+  content: "\1F50A"; /* Speaker emoji */
+  margin-right: 6px;
+}

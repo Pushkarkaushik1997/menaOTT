@@ -1,0 +1,21 @@
+@use "/src/tv/styles/variables" as *;
+
+.dot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: $default-dark;
+  transition: background-color 0.3s ease;
+}
+
+.active-dot {
+  background-color: $white;
+}

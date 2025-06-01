@@ -1,0 +1,7 @@
+@use 'global' as global;
+@use './styles/variables' as vars;
+
+*::-webkit-scrollbar {
+  display: none;
+}
+

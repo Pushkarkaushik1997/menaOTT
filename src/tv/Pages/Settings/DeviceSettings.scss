@@ -1,0 +1,76 @@
+@use "/src/tv/styles/variables" as *;
+
+.device-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.device-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.device-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.device-name {
+    font-size: 1.5rem;
+    flex: 1;
+}
+
+.remove-btn {
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 22px;
+    border: 2px solid transparent;
+    background: $button-background;
+    color: $black;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+.remove-btn:hover,
+.remove-btn:focus {
+    background: $white;
+    box-shadow: 0 0 16px $white;
+    border-radius: 12px;
+}
+
+.device-status {
+    font-size: 1.3rem;
+    color: #aaa;
+    margin-bottom: 0.5rem;
+    margin-top: 0.7rem;
+    margin-right: 16px;
+}
+
+.device-actions {
+    display: flex;
+    gap: 12px;
+}
+
+.device-toast {
+    position: fixed;
+    top: 7%;
+    right: 40px;
+    background: #fff;
+    color: #ff0000;
+    padding: 18px 32px;
+    border-radius: 12px;
+    font-size: 1.3rem;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    opacity: 0.95;
+    transition: opacity 0.3s;
+    font-weight: 500;
+}
+
+.no-device-msg {
+    color: #aaa;
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 2rem 0;
+}

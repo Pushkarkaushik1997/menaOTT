@@ -1,0 +1,14 @@
+@use '/src/tv/styles/variables' as *;
+
+.pageNotFound{
+    width: 1920px;
+    height: 1080px;
+    background-color: $accessible-light;
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase();
+    background-image: url('/src/tv/icons/weakness.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}

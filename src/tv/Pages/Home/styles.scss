@@ -1,0 +1,17 @@
+.home {
+  overflow-y: auto;
+  flex: 1;
+  height: 100vh;
+  background-color: #111;
+  background-size:auto; /* Cover the entire element */
+  background-position: center; /* Center the image */
+}
+
+.homeWrapper {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex: 1;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}

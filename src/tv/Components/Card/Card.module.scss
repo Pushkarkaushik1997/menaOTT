@@ -1,0 +1,89 @@
+/* Card.module.scss */
+@use "/src/tv/styles/variables" as *;
+
+.card {
+  flex-shrink: 0;
+  width: 200px;
+  height: 300px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  border: 6px solid transparent;
+  border-radius: 20px;
+}
+
+.card:first-child {
+  margin-left: 0;
+}
+
+.cardContent {
+  display: flexbox;
+  border-radius: 20px;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.focused {
+  border: 6px solid $white;
+  border-radius: 25px;
+}
+
+.heroCard {
+  width: 100%;
+  height: 890px;
+  margin: 0px;
+  flex-shrink: 0;
+  border-radius: 0px;
+  box-sizing: border-box;
+  border: 0px;
+}
+
+.imageContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(15px);
+  background-color: rgba(0, 0, 0, 0.34);
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0),
+    $accessible-light
+  );
+
+  img {
+    position: absolute;
+    left: 70px;
+    box-shadow: 10px 10px 70px 10px rgba(0, 1, 10, 0.89);
+    border-radius: 30px;
+    height: 700px;
+    width: 450px;
+  }
+}
+
+.heroText {
+  position: absolute;
+  color: white;
+  bottom: 100px;
+  left: 567px;
+  font-size: 70px;
+  width: 600px;
+  font-size: large;
+
+  h1 {
+    font-size: 70px;
+    width: 1000px;
+    color: $white;
+  }
+}
+
+.heroDescription {
+  font-size: 24px;
+  color: $white;
+  line-height: 1.2;
+  width: 900px;
+}

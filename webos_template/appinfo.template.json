@@ -1,0 +1,11 @@
+{
+    "id": "tv",
+    "version": "VERSION_PLACEHOLDER",
+    "vendor": "Pushkar Kaushik",
+    "type": "web",
+    "main": "index.html",
+    "title": "MenaTv",
+    "icon": "icon.png",
+    "largeIcon": "largeIcon.png"
+  }
+  

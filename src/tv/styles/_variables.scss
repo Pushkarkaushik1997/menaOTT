@@ -1,0 +1,20 @@
+// _variables.scss
+$overlay-background: rgba(0, 0, 0, 0.5);
+$play-button-unfocused: #ffffff81;
+$white: #fff;
+$black: #000000;
+
+//colors
+$default-dark: rgb(142, 142, 147);
+$default-light: rgb(142, 142, 147);
+$accessible-light: rgb(53 20 70);
+$accessible-dark: rgb(174, 174, 178);
+$button-background: rgba(255, 255, 255, 0.5058823529);
+
+// Text Styles Variables
+
+@font-face {
+    font-family: sans-serif;
+}
+
+$universal-font: sans-serif;
