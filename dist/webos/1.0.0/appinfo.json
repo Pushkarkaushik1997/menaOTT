@@ -1,0 +1,10 @@
+{
+  "id": "ott",
+  "version": "1.0.0",
+  "vendor": "Pushkar",
+  "type": "web",
+  "main": "index.html",
+  "title": "ott",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png"
+}
