@@ -95,6 +95,12 @@ A modern OTT streaming application designed for WebOS and Tizen TV platforms, bu
 
 ## Getting Started
 
+### Create a new .env file and paste the following values
+
+TMDB_API_KEY='eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlYTM3NjVhYWJmMGU0NDE2MTg0OWI5MjUwNDM1ODc4OCIsIm5iZiI6MTYzMDc2MTcwMC4yODQsInN1YiI6IjYxMzM3MmU0ZTNmYTJmMDA0MzBhMTA3YiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.jPk6RD5fA-P_B854zPoekcMCRk7RPXWknO931gU8C-0'
+TMDB_BASE_URL = 'https://api.themoviedb.org/3'
+TMDB_IMAGE_URL = 'https://image.tmdb.org/t/p'
+
 ### Prerequisites
 - Node.js (v14 or higher)
 - npm 
@@ -108,10 +114,8 @@ npm install
 
 ### Development
 
-To start the development server for web:
-``` start command for web
-npm run start:dev
-```
+To start the development server:
+
 For WebOS:
 ``` start command for WebOS
 npm run start:webos
