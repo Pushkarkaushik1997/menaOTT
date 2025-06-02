@@ -8,11 +8,10 @@ A modern OTT streaming application designed for WebOS and Tizen TV platforms, bu
 - **React-based Architecture**: Chosen for its component-based structure and efficient rendering
 - **SCSS Modules**: Used for scoped styling and better maintainability
 - **TV-First Design**:  Uses @please/lrud for spatial navigation, ensuring all interactive elements are focusable and remote-friendly.
-- **Performancen**: Implements virtualization in carousels/rows to only render visible items, improving speed on TV devices.
+- **Performance**: Implements virtualization in carousels/rows to only render visible items, improving speed on TV devices.
 - **Context API**: For state management to handle view updates and mock data
 - **Persistence**: Device settings (rename/remove) are stored in localStorage for a persistent user experience.
 - **Image Optimization**: Uses lazy loading and reduced resolution for hero/banner images to improve load times on TVs.
-- **Performance**: Implements virtualization in carousels/rows to only render visible items, improving speed on TV devices.
 
 ### UI/UX
 - **Focus-Based Navigation**: Implemented focus states for TV remote navigation
